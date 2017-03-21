@@ -1,0 +1,382 @@
+/*Importar dependencias normalize*/
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+}
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+progress {
+  vertical-align: baseline;
+}
+template,
+[hidden] {
+  display: none;
+}
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+a:active,
+a:hover {
+  outline-width: 0;
+}
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  text-decoration: underline dotted;
+}
+b,
+strong {
+  font-weight: inherit;
+}
+b,
+strong {
+  font-weight: bolder;
+}
+dfn {
+  font-style: italic;
+}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+small {
+  font-size: 80%;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sub {
+  bottom: -0.25em;
+}
+sup {
+  top: -0.5em;
+}
+img {
+  border-style: none;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+figure {
+  margin: 1em 40px;
+}
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  margin: 0;
+}
+optgroup {
+  font-weight: bold;
+}
+button,
+input {
+  overflow: visible;
+}
+button,
+select {
+  text-transform: none;
+}
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+legend {
+  box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+textarea {
+  overflow: auto;
+}
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+[type="search"] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+::-webkit-input-placeholder {
+  color: inherit;
+  opacity: 0.54;
+}
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+/* ==========================================================================
+   Estilos
+   ========================================================================== */
+body {
+  font: 16px/26px Helvetica, Helvetica Neue, Arial;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #fff;
+  font: 16px/26px Helvetica, Helvetica Neue, Arial;
+}
+.header-container {
+  width: 100%;
+  height: 505x;
+  background-color: #000;
+  float: left;
+}
+.main-container {
+  width: 100%;
+  min-height: 555px;
+  float: left;
+}
+#contenido {
+  width: 1000px;
+  height: auto;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 60px;
+}
+.footer-container {
+  width: 100%;
+  height: 120px;
+  background-color: #000;
+  float: left;
+}
+.center-header {
+  width: 1000px;
+  height: auto;
+  margin: auto;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Roboto Slab', serif;
+  font-size: 14px;
+  background-color: #2b2b2b;
+  margin-left: 4px;
+}
+li a:hover {
+  background-color: #111;
+}
+.content-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.card-box {
+  width: 200px;
+  min-height: 340px;
+  padding: 15px;
+  background-color: #f3f3f3;
+  margin-bottom: 25px;
+}
+.box-img {
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin-bottom: 15px;
+}
+.article h1 {
+  font-family: 'Roboto Slab', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  color: #000;
+  margin-bottom: 20px;
+}
+.article p {
+  font-family: 'Roboto Slab', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  color: #000;
+  line-height: 22px;
+  margin-bottom: 23px;
+}
+.article img {
+  margin-bottom: 25px;
+}
+.contenido-layout {
+  width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+}
+.contenido-layout h1 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 30px;
+  color: #000;
+  margin-bottom: 20px;
+}
+.contenido-layout p {
+  font-family: 'Roboto Slab', serif;
+  font-size: 14px;
+  color: #000;
+}
+.box-descripcion {
+  width: 100%;
+  float: left;
+}
+.box-descripcion h1 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 17px;
+  color: #000;
+  margin-bottom: 10px;
+}
+.box-descripcion p {
+  font-family: 'Roboto Slab', serif;
+  font-size: 12px;
+  color: #000;
+  line-height: 18px;
+}
+.box-like {
+  width: 100%;
+  float: left;
+  margin-top: 10px;
+}
+.box-like span {
+  font-family: 'Roboto Slab', serif;
+  font-size: 12px;
+  color: #000;
+}
+.corazon {
+  width: 20px;
+  height: 18px;
+  background-image: url("../img/corazon.png");
+  background-size: 20px 18px;
+  float: left;
+  margin-right: 7px;
+  margin-top: 2px;
+}
+.corazon-red {
+  width: 20px;
+  height: 18px;
+  background-image: url("../img/corazon-red.png");
+  background-size: 20px 18px;
+  float: left;
+  margin-right: 7px;
+  margin-top: 2px;
+  display: none;
+}
+.box-like.liked a.corazon {
+  display: none;
+}
+.box-like.liked a.corazon-red {
+  display: block;
+}
+.date {
+  width: 100%;
+  margin-bottom: 5px;
+  float: left;
+}
+.date p {
+  font-family: 'Roboto Slab', serif;
+  font-size: 10px;
+  color: #5d5d5d;
+  line-height: 18px;
+}
+.date span {
+  color: #000;
+}
