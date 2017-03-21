@@ -2,7 +2,10 @@
   "name": "apptester",
   "version": "0.1.0",
   "description": "aplicacion de prueba",
-  "main": "app.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
   "keywords": [
     "test"
   ],
