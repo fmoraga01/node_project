@@ -2,7 +2,7 @@
   "name": "apptester",
   "version": "0.1.0",
   "description": "aplicacion de prueba",
-  "main": "server.js",
+  "main": "app.js",
   "keywords": [
     "test"
   ],
